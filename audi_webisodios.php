@@ -46,7 +46,7 @@ function webisodios_loop()
         <div class="internovideo">
             <div class="videoplay"><a data-fancybox href="https://vimeo.com/161721395?color=bb0a30"><span class="aui-icon-system-play-small"></span></a></div>
             <div class="infovideo">
-                <div class="nombrevideo">Principios de consulta (de como principiar una consulta)</div>
+                <div class="nombrevideo">Principios de consulta</div>
                 <div class="referenciavideo">Cap 1. Tu cliente como un partner / socio</div>
             </div>
         </div>
