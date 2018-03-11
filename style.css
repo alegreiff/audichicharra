@@ -5068,8 +5068,7 @@ input[type=text] {
 
 .audi_webisodios .barrasuperior, .webisodios .barrasuperior {
   min-height: 100px;
-  /*background-color: $audiblanco;*/
-  background-color: lime; }
+  background-color: #ffffff; }
 
 .audi_webisodios .contenedor {
   display: grid;
