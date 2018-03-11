@@ -5060,6 +5060,294 @@ input[type=text] {
 .icono_superior {
   background-color: darkred; }
 
+/* CONFIGURACIONES ESPECÍFICAS AUDI*/
+/* FIN CONFIGURACIONES ESPECÍICAS AUDI*/
+.audi_webisodios article, .webisodios article {
+  margin: 0;
+  padding: 0; }
+
+.audi_webisodios .barrasuperior, .webisodios .barrasuperior {
+  min-height: 100px;
+  /*background-color: $audiblanco;*/
+  background-color: lime; }
+
+.audi_webisodios .contenedor {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr 150px;
+  height: calc(100vh - 100px);
+  justify-items: center;
+  background-image: url("../../uploads/2018/02/fondo_webisodios_1280_600.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #bb0a30;
+  background-blend-mode: darken; }
+
+.audi_webisodios .logo {
+  padding-top: 6.2em; }
+
+.audi_webisodios .logo img {
+  max-width: 150px; }
+  @media (min-width: 800px) {
+    .audi_webisodios .logo img {
+      max-width: 260px; } }
+  @media (min-width: 1200px) {
+    .audi_webisodios .logo img {
+      max-width: 220px; } }
+
+.audi_webisodios .titulo {
+  padding-top: 0em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'AudiType-Bold', verdana, sans-serif !important;
+  color: #ffffff;
+  font-size: 2.0em; }
+  @media (min-width: 800px) {
+    .audi_webisodios .titulo {
+      font-size: 4.0em; } }
+  @media (min-width: 1200px) {
+    .audi_webisodios .titulo {
+      font-size: 9.6em; } }
+
+a.botonaudi {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'AudiType-Normal', verdana, sans-serif !important;
+  border: 3px #ffffff solid;
+  height: auto;
+  padding: 0.2em 2em;
+  font-size: 1.6em;
+  background-color: rgba(0, 0, 0, 0.4); }
+  @media (min-width: 800px) {
+    a.botonaudi {
+      grid-template-columns: 1fr;
+      padding: 0.2em 2em;
+      font-size: 2.0em; } }
+  @media (min-width: 1200px) {
+    a.botonaudi {
+      padding: 0.2em 2em;
+      font-size: 2.6em; } }
+
+a.botonmedio {
+  font-size: 1.6em;
+  max-width: 250px; }
+
+.audi_webisodios .loadmore {
+  color: #ffffff;
+  font-family: 'AudiType-Normal', verdana, sans-serif !important;
+  font-size: 2.6em;
+  padding-top: 0.4em; }
+
+.audi_webisodios span.center {
+  font-family: 'AudiType-ExtendedNormal', verdana, sans-serif !important;
+  display: block;
+  text-align: center;
+  margin-top: -50px;
+  font-size: 2em;
+  font-weight: 100; }
+
+.audi_webisodios .enlaces {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: 1fr; }
+  @media (min-width: 800px) {
+    .audi_webisodios .enlaces {
+      grid-template-columns: 1fr;
+      grid-template-columns: 1fr; } }
+  @media (min-width: 1200px) {
+    .audi_webisodios .enlaces {
+      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr; } }
+
+.enlace_libro, .enlace_preguntas, .enlace_novedades, .enlace_clientes {
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  min-height: 400px;
+  padding: 0;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.audi_webisodios .enlace_libro {
+  background-image: url("../../uploads/2018/02/webisodios_libro_imagen.jpg");
+  background-position: center center; }
+
+.audi_webisodios .enlace_preguntas {
+  background-image: url("../../uploads/2018/02/webisodios_novedades_imagen.jpg");
+  background-position: center center; }
+
+.audi_webisodios .enlace_novedades {
+  background-image: url("../../uploads/2018/02/webisodios_preguntasfrecuentes_imagen.jpg");
+  background-position: center center; }
+
+.audi_webisodios .enlace_clientes {
+  background-image: url("../../uploads/2018/02/webisodios_clientes_imagen.jpg");
+  background-position: center center; }
+
+a.botonmedio:link, a.botonaudi:link {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+a.botonmedio:visited, a.botonaudi:visited {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+a.botonmedio:hover, a.botonaudi:hover {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+a.botonmedio:active, a.botonaudi:active {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.audi_webisodios a:link {
+  color: #ffffff;
+  text-decoration: none; }
+
+.audi_webisodios a:visited {
+  color: #ffffff; }
+
+.audi_webisodios a:hover {
+  color: #ffffff; }
+
+.audi_webisodios a:active {
+  color: #ffffff; }
+
+/*
+
+    enlace_libro
+    enlace_preguntas
+    enlace_novedades
+    enlace_clientes
+*/
+/*
+.texto_audi_verepisodios p {
+  color: white;
+  text-align: center;
+  padding: 0.2em;
+  background-color: rgba(255, 255, 255, 0.297);
+  margin: -50px auto 0 auto;
+
+  border: 5px white solid;
+}
+
+.texto_audi_verepisodios p {
+  font-size: 1.2em;
+  width: 200px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    margin-top: 50px;
+
+  }
+
+  @media (min-width: 800px) {
+    font-size: 1.8em;
+    width: 300px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 2.8em;
+    width: 400px;
+  }
+}
+*/
+/*PÁGINA WEBISODIOS*/
+.webisodios .contenedor {
+  max-width: 1280px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-rows: auto; }
+
+.webisodios .titulopagina {
+  text-transform: uppercase;
+  font-family: 'AudiType-Normal', verdana, sans-serif;
+  text-align: center;
+  border-top: #b3b3b3 2px solid;
+  background-color: #ffffff;
+  color: #b6b1a9;
+  font-size: 3em; }
+
+.webisodios .videos {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+  grid-gap: 3px; }
+  @media (min-width: 800px) {
+    .webisodios .videos {
+      grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 1200px) {
+    .webisodios .videos {
+      grid-template-columns: 1fr 1fr; } }
+
+.webisodios .videos div.internovideo {
+  min-height: 320px;
+  min-width: 100%;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  display: grid;
+  grid-template-rows: 3fr 1fr; }
+
+.idf {
+  display: grid; }
+
+.internovideo:hover {
+  cursor: pointer;
+  background-color: #eb0d3c;
+  background-blend-mode: darken; }
+
+.infovideo {
+  min-width: 100%;
+  font-family: 'AudiType-Normal', verdana, sans-serif;
+  background: rgba(187, 10, 48, 0.7);
+  padding: 1em; }
+
+.infovideo .nombrevideo {
+  font-size: 1.2em;
+  font-weight: bold; }
+
+.internovideo div.videoplay {
+  font-size: 5em;
+  align-self: end;
+  justify-self: center;
+  padding-bottom: 0.5em; }
+
+div.videoplay a:link {
+  color: #ffffff;
+  border-radius: 100px; }
+
+div.videoplay a:hover {
+  color: #bb0a30; }
+
+div.videoplay a:visited {
+  color: #ffffff; }
+
+div.videoplay a:active {
+  color: #ffffff; }
+
+.webisodios .videos div.internovideo:nth-child(1) {
+  background-image: url("../../uploads/2018/02/video1.jpg"); }
+
+.webisodios .videos div.internovideo:nth-child(2) {
+  background-image: url("../../uploads/2018/02/video2.jpg"); }
+
+.webisodios .videos div.internovideo:nth-child(3) {
+  background-image: url("../../uploads/2018/02/video3.jpg"); }
+
+.webisodios .videos div.internovideo:nth-child(4) {
+  background-image: url("../../uploads/2018/02/video4.jpg"); }
+
+.webisodios .videos div.internovideo:nth-child(5) {
+  background-image: url("../../uploads/2018/02/video5.jpg"); }
+
+.webisodios .videos div.internovideo:nth-child(6) {
+  background-image: url("../../uploads/2018/02/video6.jpg"); }
+
+.fancybox-slide--iframe .fancybox-content {
+  width: 81%;
+  height: 81%;
+  max-width: 80%;
+  max-height: 80%;
+  margin: 0; }
+
 /*@import "partial/grid_layout";
 @import "partial/home";
 @import "partial/sticky_header";
