@@ -1,0 +1,88 @@
+.audixhom main article {
+  background-image: url("../../uploads/2018/02/fondo_webisodios.jpg");
+  min-height: 694px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #eb0d3c;
+  background-blend-mode: darken; }
+
+.logo_audi_webisodios img {
+  max-width: 230px !important;
+  display: none; }
+
+.texto_audi_webisodios p {
+  color: white;
+  text-align: center;
+  font-family: 'AudiType-ExtendedNormal', verdana,  sans-serif !important;
+  font-weight: 600; }
+
+.texto_audi_webisodios p {
+  font-size: 1.2em; }
+  @media (min-width: 800px) {
+    .texto_audi_webisodios p {
+      font-size: 3.5em; } }
+  @media (min-width: 1200px) {
+    .texto_audi_webisodios p {
+      font-size: 6em; } }
+
+.texto_audi_verepisodios p {
+  color: white;
+  text-align: center;
+  padding: 0.2em;
+  background-color: rgba(255, 255, 255, 0.297);
+  margin: 0 auto;
+  border: 3px white solid; }
+
+.texto_audi_verepisodios p {
+  font-size: 1.0em;
+  width: 200px; }
+  @media (min-width: 800px) {
+    .texto_audi_verepisodios p {
+      font-size: 1.6em;
+      width: 300px; } }
+  @media (min-width: 1200px) {
+    .texto_audi_verepisodios p {
+      font-size: 2em;
+      width: 400px; } }
+
+/*.site-header, body{
+    background: $rojoaudi !important;
+}*/
+.site-footer {
+  background: #C00F38 !important; }
+
+main.content article {
+  font-size: 1em; }
+
+.jaime {
+  font-size: 5.2em;
+  color: #C00F38; }
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-size: 1em; }
+
+/* BOLD EXTENDEDBOLD NORMAL EXTENDEDNORMAL
+AudiType-Normal
+AudiType-Bold
+AudiType-ExtendedBold
+AudiType-ExtendedNormal
+*/
+.textoNormal, .textoNormal h1, .textoNormal h2, .textoNormal h3, .textoNormal h4, .textoNormal h5, .textoNormal h6 {
+  font-family: 'AudiType-Normal', verdana,  sans-serif !important; }
+
+.textoBold, .textoBold h1, .textoBold h2, .textoBold h3, .textoBold h4, .textoBold h5, .textoBold h6 {
+  font-family: 'AudiType-Bold', verdana,  sans-serif !important; }
+
+.textoExtendedNormal, .textoExtendedNormal h1, .textoExtendedNormal h2, .textoExtendedNormal h3, .textoExtendedNormal h4, .textoExtendedNormal h5, .textoExtendedNormal h6 {
+  font-family: 'AudiType-ExtendedNormal', verdana,  sans-serif !important; }
+
+.textoExtendedBold, .textoExtendedBold h1, .textoExtendedBold h2, .textoExtendedBold h3, .textoExtendedBold h4, .textoExtendedBold h5, .textoExtendedBold h6 {
+  font-family: 'AudiType-ExtendedBold', verdana,  sans-serif !important; }
+
+span.chicharra_icon {
+  font-size: 5em; }
+
+span.chicharra_icon span.interna {
+  font-size: 15px !important;
+  color: #C00F38;
+  margin-left: 100px; }

@@ -1,0 +1,33 @@
+/**
+ *
+ * CUSTOM FONTS
+ * La Lupita Producciones SAS
+ *
+ */
+@font-face {
+  font-family: 'AudiType-Bold';
+  src: url("./fuentesaudi/subset-AudiTypeScreen-Bold.eot");
+  src: url("./fuentesaudi/subset-AudiTypeScreen-Bold.eot?#iefix") format("embedded-opentype"), url("./fuentesaudi/subset-AudiTypeScreen-Bold.woff2") format("woff2"), url("./fuentesaudi/subset-AudiTypeScreen-Bold.woff") format("woff"), url("./fuentesaudi/subset-AudiTypeScreen-Bold.ttf") format("truetype"), url("./fuentesaudi/subset-AudiTypeScreen-Bold.svg#AudiTypeScreen-Bold") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AudiType-ExtendedBold';
+  src: url("./fuentesaudi/subset-AudiType-ExtendedBold.eot");
+  src: url("./fuentesaudi/subset-AudiType-ExtendedBold.eot?#iefix") format("embedded-opentype"), url("./fuentesaudi/subset-AudiType-ExtendedBold.woff2") format("woff2"), url("./fuentesaudi/subset-AudiType-ExtendedBold.woff") format("woff"), url("./fuentesaudi/subset-AudiType-ExtendedBold.ttf") format("truetype"), url("./fuentesaudi/subset-AudiType-ExtendedBold.svg#AudiType-ExtendedNormal") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AudiType-ExtendedNormal';
+  src: url("./fuentesaudi/subset-AudiType-ExtendedNormal.eot");
+  src: url("./fuentesaudi/subset-AudiType-ExtendedNormal.eot?#iefix") format("embedded-opentype"), url("./fuentesaudi/subset-AudiType-ExtendedNormal.woff2") format("woff2"), url("./fuentesaudi/subset-AudiType-ExtendedNormal.woff") format("woff"), url("./fuentesaudi/subset-AudiType-ExtendedNormal.ttf") format("truetype"), url("./fuentesaudi/subset-AudiType-ExtendedNormal.svg#AudiType-ExtendedNormal") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AudiType-Normal';
+  src: url("./fuentesaudi/subset-AudiTypeScreen-Normal.eot");
+  src: url("./fuentesaudi/subset-AudiTypeScreen-Normal.eot?#iefix") format("embedded-opentype"), url("./fuentesaudi/subset-AudiTypeScreen-Normal.woff2") format("woff2"), url("./fuentesaudi/subset-AudiTypeScreen-Normal.woff") format("woff"), url("./fuentesaudi/subset-AudiTypeScreen-Normal.ttf") format("woff"), url("./fuentesaudi/subset-AudiTypeScreen-Normal.svg#AudiTypeScreen-Normal") format("svg");
+  font-weight: 400;
+  font-style: normal; }

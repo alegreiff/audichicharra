@@ -1,0 +1,108 @@
+@import "icons.less";
+/**
+ *
+ * CUSTOM FONTS
+ * La Lupita Producciones SAS
+ *
+ */
+ @font-face {
+    font-family: 'AudiType-Bold';
+    src: url('../fuentesaudi/subset-AudiTypeScreen-Bold.eot');
+    src: url('../fuentesaudi/subset-AudiTypeScreen-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fuentesaudi/subset-AudiTypeScreen-Bold.woff2') format('woff2'),
+        url('../fuentesaudi/subset-AudiTypeScreen-Bold.woff') format('woff'),
+        url('../fuentesaudi/subset-AudiTypeScreen-Bold.ttf') format('truetype'),
+        url('../fuentesaudi/subset-AudiTypeScreen-Bold.svg#AudiTypeScreen-Bold') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'AudiType-ExtendedBold';
+    src: url('../fuentesaudi/subset-AudiType-ExtendedBold.eot');
+    src: url('../fuentesaudi/subset-AudiType-ExtendedBold.eot?#iefix') format('embedded-opentype'),
+        url('../fuentesaudi/subset-AudiType-ExtendedBold.woff2') format('woff2'),
+        url('../fuentesaudi/subset-AudiType-ExtendedBold.woff') format('woff'),
+        url('../fuentesaudi/subset-AudiType-ExtendedBold.ttf') format('truetype'),
+        url('../fuentesaudi/subset-AudiType-ExtendedBold.svg#AudiType-ExtendedNormal') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'AudiType-ExtendedNormal';
+    src: url('../fuentesaudi/subset-AudiType-ExtendedNormal.eot');
+    src: url('../fuentesaudi/subset-AudiType-ExtendedNormal.eot?#iefix') format('embedded-opentype'),
+        url('../fuentesaudi/subset-AudiType-ExtendedNormal.woff2') format('woff2'),
+        url('../fuentesaudi/subset-AudiType-ExtendedNormal.woff') format('woff'),
+        url('../fuentesaudi/subset-AudiType-ExtendedNormal.ttf') format('truetype'),
+        url('../fuentesaudi/subset-AudiType-ExtendedNormal.svg#AudiType-ExtendedNormal') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'AudiType-Normal';
+    src: url('../fuentesaudi/subset-AudiTypeScreen-Normal.eot');
+    src: url('../fuentesaudi/subset-AudiTypeScreen-Normal.eot?#iefix') format('embedded-opentype'),
+        url('../fuentesaudi/subset-AudiTypeScreen-Normal.woff2') format('woff2'),
+        url('../fuentesaudi/subset-AudiTypeScreen-Normal.woff') format('woff'),
+        url('../fuentesaudi/subset-AudiTypeScreen-Normal.ttf') format('woff'),
+        url('../fuentesaudi/subset-AudiTypeScreen-Normal.svg#AudiTypeScreen-Normal') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@rojoaudi: #BD022D;
+@rojoclaroaudi: #C00F38;
+
+.site-header, body{
+    background: @rojoaudi !important;
+}
+
+.site-footer{
+    background: @rojoclaroaudi !important;
+}
+main.content article{
+//background: @rojoaudi !important;
+}
+.jaime{
+    font-size: 5.2em;
+    color: @rojoaudi;
+}
+
+
+body, h1, h2, h3, h4, h5, h6 {
+    //font-family: 'AudiType-Normal', verdana,  sans-serif;
+    //color: #fff;
+}
+
+
+
+/* BOLD EXTENDEDBOLD NORMAL EXTENDEDNORMAL
+AudiType-Normal
+AudiType-Bold
+AudiType-ExtendedBold
+AudiType-ExtendedNormal
+*/
+.textoNormal, .textoNormal h1, .textoNormal h2, .textoNormal h3, .textoNormal h4, .textoNormal h5, .textoNormal h6{
+    font-family: 'AudiType-Normal', verdana,  sans-serif !important;
+    
+}
+.textoBold, .textoBold h1, .textoBold h2, .textoBold h3, .textoBold h4, .textoBold h5, .textoBold h6{    
+    font-family: 'AudiType-Bold', verdana,  sans-serif !important;
+    
+}
+.textoExtendedNormal, .textoExtendedNormal h1, .textoExtendedNormal h2, .textoExtendedNormal h3, .textoExtendedNormal h4, .textoExtendedNormal h5, .textoExtendedNormal h6{    
+    font-family: 'AudiType-ExtendedNormal', verdana,  sans-serif !important;
+    
+}
+.textoExtendedBold, .textoExtendedBold h1, .textoExtendedBold h2, .textoExtendedBold h3, .textoExtendedBold h4, .textoExtendedBold h5, .textoExtendedBold h6{    
+    font-family: 'AudiType-ExtendedBold', verdana,  sans-serif !important;
+    
+}
+span.chicharra_icon{
+    font-size: 5em;
+}
+span.chicharra_icon span.interna{
+    font-size: 15px !important;
+    color: @rojoaudi;
+    margin-left: 100px;
+}

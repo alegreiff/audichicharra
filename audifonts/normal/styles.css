@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'AudiType-Normal';
+  src: url('./audifonts/normal/AudiType-Normal.eot?#iefix') format('embedded-opentype'),
+  url('./audifonts/normal/AudiType-Normal.woff') format('woff'), url('./audifonts/normal/AudiType-Normal.ttf')  format('truetype'), url('./audifonts/normal/AudiType-Normal.svg#AudiType-Normal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
