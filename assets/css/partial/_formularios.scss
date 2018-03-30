@@ -1,0 +1,33 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $audiplata !important;
+  font-family: 'AudiType-ExtendedBold', verdana, sans-serif !important;
+  text-transform: uppercase;
+  text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $audiplata !important;
+  font-family: 'AudiType-ExtendedBold', verdana, sans-serif !important;
+  text-transform: uppercase;
+  text-align: center;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $audiplata !important;
+  font-family: 'AudiType-ExtendedBold', verdana, sans-serif !important;
+  text-transform: uppercase;
+  text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $audiplata !important;
+  font-family: 'AudiType-ExtendedBold', verdana, sans-serif !important;
+  text-transform: uppercase;
+  text-align: center;
+}
+*:focus {
+  outline: none !important;
+}
+input[type=text]{
+  border-bottom: 5px red solid !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}

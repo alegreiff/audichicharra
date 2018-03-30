@@ -1,0 +1,104 @@
+.audilogin main article {
+  margin: 0;
+  padding: 0;
+}
+.ilustracion_audi img {
+  max-width: 600px !important;
+  margin: 0 auto !important;
+}
+.logo_audi_negro img {
+  max-width: 90px !important;
+  margin: 0 auto;
+  padding: 0;
+  @media (min-width: 800px) {
+    max-width: 150px !important;
+  }
+  @media (min-width: 1200px) {
+    max-width: 230px !important;
+  }
+}
+.audilogin .audi_textos_login{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.login_texto1 {
+  font-family: 'AudiType-ExtendedBold', verdana, sans-serif !important;
+  font-size: 1.0em;
+  margin-left: 15%;
+  @media (min-width: 800px) {
+    font-size: 1.4em;
+  }
+  @media (min-width: 1200px) {
+    font-size: 1.6em;
+  }
+}
+.login_texto2 {
+  font-family: 'AudiType-ExtendedNormal', verdana, sans-serif !important;
+  font-size: 1.0em;
+  margin-left: 15%;
+  font-weight: 100;
+  @media (min-width: 800px) {
+    font-size: 1.4em;
+  }
+  @media (min-width: 1200px) {
+    font-size: 1.6em;
+  }
+}
+.audilogin ::placeholder{
+  font-family: 'AudiType-Normal', verdana, sans-serif !important;
+  font-size: 1.1em !important;
+  text-transform: none;
+}
+
+.audilogin input#username-147, .audilogin input#user_password-147{
+  background-color:transparent !important;
+  border: 0px solid !important;
+  text-align: center !important;
+  font-family: 'AudiType-Normal', verdana, sans-serif !important;
+  font-size: 1.1em !important;
+  border-bottom: 1px $audinegro solid !important;
+}
+.audilogin .um-button{
+  font-size: 1.5em !important;
+  font-family: 'AudiType-Normal', verdana, sans-serif !important;
+}
+
+/*
+.login_texto1 {
+  font-family: 'AudiType-ExtendedBold', verdana, sans-serif !important;
+  font-size: 3em;
+  margin: 0 0 0 20%;
+}
+
+.login_texto2 {
+  font-family: 'AudiType-ExtendedNormal', verdana, sans-serif !important;
+  font-size: 2.5em;
+  margin: 0 0 0 20%;
+}
+*/
+
+/*
+  font-family: 'AudiType-Bold';
+  font-family: 'AudiType-ExtendedBold';
+  font-family: 'AudiType-ExtendedNormal';
+  font-family: 'AudiType-Normal';
+*/
+
+/*
+.textoNormal, .textoNormal h1, .textoNormal h2, .textoNormal h3, .textoNormal h4, .textoNormal h5, .textoNormal h6{
+    font-family: 'AudiType-Normal', verdana,  sans-serif !important;
+
+}
+.textoBold, .textoBold h1, .textoBold h2, .textoBold h3, .textoBold h4, .textoBold h5, .textoBold h6{
+    font-family: 'AudiType-Bold', verdana,  sans-serif !important;
+
+}
+.textoExtendedNormal, .textoExtendedNormal h1, .textoExtendedNormal h2, .textoExtendedNormal h3, .textoExtendedNormal h4, .textoExtendedNormal h5, .textoExtendedNormal h6{
+    font-family: 'AudiType-ExtendedNormal', verdana,  sans-serif !important;
+
+}
+.textoExtendedBold, .textoExtendedBold h1, .textoExtendedBold h2, .textoExtendedBold h3, .textoExtendedBold h4, .textoExtendedBold h5, .textoExtendedBold h6{
+    font-family: 'AudiType-ExtendedBold', verdana,  sans-serif !important;
+
+}
+*/

@@ -1,0 +1,22 @@
+.barrasuperior{
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  font-family: 'AudiType-ExtendedNormal', verdana, sans-serif;
+  justify-items: center;
+  align-items: center;
+}
+.menu_superior{
+  background-color: forestgreen;
+}
+.titulo_superior{
+font-size: 2em;
+}
+
+.titulo_superior span{
+  font-family: 'AudiType-ExtendedBold', verdana, sans-serif;
+}
+
+
+.icono_superior{
+  background-color: darkred;
+}

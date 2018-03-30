@@ -1,0 +1,159 @@
+.site-inner{
+  padding: 0 !important;
+}
+p.audi_header span{
+color: red;
+}
+p.audi_header{
+color: lime;
+}
+#audi_webisodios {
+  background-image: url("../../uploads/2018/02/fondo_webisodios_1280_600.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-color: lighten($audired, 0%);
+  background-blend-mode: darken;
+  min-height: 100vh !important;
+}
+.audixhom article {
+  margin: 0;
+  padding: 0;
+}
+.logo_audi_webisodios img {
+  margin-top: 2em;
+  max-width: 230px !important;
+  display: none;
+}
+
+.texto_audi_webisodios p {
+  color: white;
+  text-align: center;
+  font-family: 'AudiType-Bold', verdana, sans-serif !important;
+}
+
+.texto_audi_webisodios p {
+  font-size: 2.0em;
+  @media (min-width: 800px) {
+    font-size: 4.0em;
+  }
+  @media (min-width: 1200px) {
+    font-size: 7.2em;
+  }
+}
+
+.texto_audi_verepisodios p {
+  color: white;
+  text-align: center;
+  padding: 0.2em;
+  background-color: rgba(255, 255, 255, 0.297);
+  margin: -50px auto 0 auto;
+
+  border: 5px white solid;
+}
+
+.texto_audi_verepisodios p {
+  font-size: 1.2em;
+  width: 200px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    margin-top: 50px;
+
+  }
+
+  @media (min-width: 800px) {
+    font-size: 1.8em;
+    width: 300px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 2.8em;
+    width: 400px;
+  }
+}
+
+.panel-grid-cell {
+  margin: 0px !important;
+  padding: 0 !important;
+}
+
+.web_menu_1 .textwidget, .web_menu_2 .textwidget, .web_menu_3 .textwidget, .web_menu_4 .textwidget {
+
+}
+
+.web_menu_1, .web_menu_2, .web_menu_3, .web_menu_4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.web_menu_1 p, .web_menu_2 p, .web_menu_3 p, .web_menu_4 p {
+  align-self: center;
+  color: white;
+  text-align: center;
+  padding: 0.2em;
+  background-color: rgba(255, 255, 255, 0.297);
+  margin: 0 auto;
+  border: 2px white solid;
+  font-size: 1.0em;
+  width: 150px;
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 1.6em;
+    min-width: 70vw !important;
+
+
+  }
+
+  @media (min-width: 800px) {
+    font-size: 1.6em;
+    width: 250px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 2em;
+    width: 300px;
+  }
+}
+
+.web_menu_1, .web_menu_2, .web_menu_3, .web_menu_4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  min-height: 400px;
+  padding: 0;
+  margin: 1px;
+}
+
+#menu_cuatro_elementos_audi .panel-grid-cell .so-panel {
+  margin-bottom: 0 !important;
+}
+
+.web_menu_1 {
+  background-image: url("../../uploads/2018/02/webisodios_libro_imagen.jpg");
+  background-position: center center;
+
+}
+
+.web_menu_2 {
+  background-image: url("../../uploads/2018/02/webisodios_novedades_imagen.jpg");
+  background-position: center center;
+}
+
+.web_menu_3 {
+  background-image: url("../../uploads/2018/02/webisodios_preguntasfrecuentes_imagen.jpg");
+  background-position: center center;
+}
+
+.web_menu_4 {
+  background-image: url("../../uploads/2018/02/webisodios_clientes_imagen.jpg");
+  background-position: center center;
+}
+
+/*FULL WIDTH*/
+.site-inner {
+  max-width: none !important;
+  background-color: $audiblanco;
+}
+
+@media only screen and (max-width: 1023px) {
+  .full-width .site-inner { padding-left: 0%; padding-right: 0%; }
+}
