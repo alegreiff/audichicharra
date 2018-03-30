@@ -1,10 +1,12 @@
 @charset "UTF-8";
-/*MAGUARED*/
+/*Variables generales*/
+/*Botones*/
+/* Información básica del tema WordPress */
 /*!
-Theme Name: GENESIS SASS AUDI
+Theme Name: Genesis Theme [AUDI - Chicharra - La Lupita Producciones SAS]
 Theme URI: #
 Description: Tema base para genesis con SASS
-Version: 1.0
+Version: 0.9
 Author: Jaime de Greiff
 Author URI: #
 License: GPL
@@ -5060,8 +5062,6 @@ input[type=text] {
 .icono_superior {
   background-color: darkred; }
 
-/* CONFIGURACIONES ESPECÍFICAS AUDI*/
-/* FIN CONFIGURACIONES ESPECÍICAS AUDI*/
 .audi_webisodios article, .webisodios article {
   margin: 0;
   padding: 0; }
@@ -5187,16 +5187,16 @@ a.botonmedio {
   background-position: center center; }
 
 a.botonmedio:link, a.botonaudi:link {
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.9); }
 
 a.botonmedio:visited, a.botonaudi:visited {
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.9); }
 
 a.botonmedio:hover, a.botonaudi:hover {
   background-color: rgba(0, 0, 0, 0.9); }
 
 a.botonmedio:active, a.botonaudi:active {
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.9); }
 
 .audi_webisodios a:link {
   color: #ffffff;
@@ -5346,10 +5346,3 @@ div.videoplay a:active {
   max-width: 80%;
   max-height: 80%;
   margin: 0; }
-
-/*@import "partial/grid_layout";
-@import "partial/home";
-@import "partial/sticky_header";
-
-<p class="audi_header"><span>Audi</span>Premium Customer Experience</p>
-*/

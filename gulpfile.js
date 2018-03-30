@@ -28,7 +28,7 @@ gulp.task('browser-sync', function() {
 gulp.task('sass', function () {
     return gulp.src('./assets/css/*.scss')
     .pipe(plumber())
-    .pipe(sass())
+    .pipe(sass({outputStyle: 'nested'}))
     .pipe(gulp.dest('./'))
     .pipe(reload({stream:true}));
 });
