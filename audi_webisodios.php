@@ -4,8 +4,11 @@
  * Description: Plantilla base para los contenidos de AUDI
  */
 // Add our custom loop
-$pagina_audi = get_query_var('pagename') . '_loop';
-
+if( is_front_page() ){ /* Para que funcione cuando es HOME. De repente sea mejor una plantilla por cada página*/
+    $pagina_audi = 'audi_webisodios_loop';
+}else{
+    $pagina_audi = get_query_var('pagename') . '_loop';
+}
 
 add_action('genesis_loop', $pagina_audi);
 
