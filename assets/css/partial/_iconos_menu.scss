@@ -1,0 +1,46 @@
+.audi_menu_user a::before{
+    font-family: 'audi-iconfont';
+    content: "\EBF5";
+    margin-right: 4px;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 14px;
+    font-weight: bolder;
+}
+.audi_menu_option a::before, .audi_menu_cerrarsesion a::before{
+  font-family: 'audi-iconfont';
+  content: "\EBB0";
+  margin-right: 10px;
+  font-weight: 900;
+}
+.audi_menu_user{
+  margin: 3px 5px;
+  border-top: 1px solid $audiblanco;
+}
+.audi_menu_cerrarsesion{
+  margin: 3px 5px;
+  border-bottom: 1px solid $audiblanco;
+}
+.audi_menu_home a::before{
+  font-family: 'audi-iconfont';
+  content: "\EAB6";
+  margin-right: 10px;
+  font-weight: 900;
+
+}
+
+
+.audi_menu_elemento a::before{
+  font-family: 'audi-iconfont';
+  content: "\EAE6";
+  margin-right: 10px;
+  font-weight: 900;
+
+}
+/*.audi_menu_cerrarsesion a::after{
+  content: "____________________________________________________________________________________________________________";
+  display: block;
+  font-size: 0.2em;
+  font-weight: 100;
+}*/

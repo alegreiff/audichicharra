@@ -174,6 +174,13 @@ function smoothscroll() {
 
 }
 
+/*FONT AWESOME*/
+add_action( 'wp_enqueue_scripts', 'enqueue_load_fa' );
+function enqueue_load_fa() {
+    wp_enqueue_style( 'load-fa', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
+}
+
+
 /**
  * Custom Footer
  */
@@ -206,7 +213,7 @@ function custom_remove_titles()
         return;
     }
 
-    if (is_page(array('inicio', 'login', 'password-reset', 'audi_webisodios', 'webisodios'))) {
+    if (is_page(array('inicio', 'login', 'password-reset', 'audi_webisodios', 'webisodios', 'foro', 'libro', 'faq', 'novedades'))) {
         //remove_action( 'genesis_before_footer', 'genesis_footer_widget_areas' );
         remove_action('genesis_entry_header', 'genesis_entry_header_markup_open', 5);
         remove_action('genesis_entry_header', 'genesis_do_post_title');

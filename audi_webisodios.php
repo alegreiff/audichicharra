@@ -31,10 +31,10 @@ function audi_webisodios_loop()
     </div>
 </div>
 <div id="mascontenido" class="enlaces">
-    <div class="enlace_libro"><a href="#" class="button botonaudi botonmedio">Libro</a></div>
-    <div class="enlace_preguntas"><a href="#" class="button botonaudi botonmedio">Preguntas frecuentes</a></div>
-    <div class="enlace_novedades"><a href="#" class="button botonaudi botonmedio">Novedades Audi</a></div>
-    <div class="enlace_clientes"><a href="#" class="button botonaudi botonmedio">Clientes Audi Foro</a></div>
+    <div class="enlace_libro"><a href="/libro" class="button botonaudi botonmedio">Libro</a></div>
+    <div class="enlace_preguntas"><a href="/faq" class="button botonaudi botonmedio">Preguntas frecuentes</a></div>
+    <div class="enlace_novedades"><a href="/novedades" class="button botonaudi botonmedio">Novedades Audi</a></div>
+    <div class="enlace_clientes"><a href="/foro" class="button botonaudi botonmedio">Clientes Audi Foro</a></div>
 </div>';
 }
 
