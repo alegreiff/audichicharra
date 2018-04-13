@@ -247,3 +247,10 @@ remove_action('genesis_site_title', 'genesis_seo_site_title');
 remove_action('genesis_header', 'genesis_header_markup_open', 5);
 remove_action('genesis_header', 'genesis_do_header');
 remove_action('genesis_header', 'genesis_header_markup_close', 15);
+
+/*FAVICON*/
+/** Adding custom Favicon */
+add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
+function custom_favicon( $favicon_url ) {
+    return 'https://www.audi.com/etc/designs/gbp/favicon.ico';
+}
