@@ -23,8 +23,9 @@ function audi_webisodios_loop()
     global $barrasuperior;
     echo $barrasuperior;
     echo '<div class="contenedor">
-    <div class="logo"><img src="' . content_url() . '/uploads/2018/02/audi_logo_blanco.png" alt=""></div>
-    <div class="titulo">Webisodios</div>
+    <!--<div class="logo"><img src="' . content_url() . '/uploads/2018/02/audi_logo_blanco.png" alt=""></div>-->
+    <!-- <div class="titulo">Webisodios</div> -->
+    <div class="titulo"><img src="' . content_url() . '/uploads/2018/04/logovitrina-400.png" alt="" class="logovitrina"></div>
 
     <div class="enlace"><a href="/webisodios" class="button botonaudi">Ver episodios</a></div>
     <div class="loadmore"><a href="#mascontenido">Ver más <span class="center aui-icon-arrow-down-small"></span></a>

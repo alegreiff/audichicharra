@@ -16,12 +16,13 @@
   grid-template-rows: auto auto 1fr 150px;
   height: calc(100vh - #{$altobarrasuperior});
   justify-items: center;
-  background-image: url("../../uploads/2018/02/fondo_webisodios_1280_600.jpg");
+  /*background-image: url("../../uploads/2018/02/fondo_webisodios_1280_600.jpg");*/
+  background-image: url("../../uploads/2018/04/fondo_webisodios_001.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: lighten($audired, 0%);
-  background-blend-mode: darken;
+  background-color: darken($audired, 5%);
+  background-blend-mode: darken, luminosity;
 }
 
 .audi_webisodios .logo {
@@ -46,7 +47,7 @@
 }
 
 .audi_webisodios .titulo { //MOVIL TODOS
-  padding-top: 0em;
+  padding-top: 0.6em;/*xxx*/
   text-transform: uppercase;
   text-align: center;
   font-family: 'AudiType-Bold', verdana, sans-serif !important;
@@ -341,4 +342,8 @@ div.videoplay a:active{
   max-width  : 80%;
   max-height : 80%;
   margin: 0;
+}
+
+img.logovitrina{
+  max-width: 200px;
 }
