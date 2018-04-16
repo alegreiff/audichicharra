@@ -27,15 +27,21 @@ function audi_webisodios_loop()
     <!-- <div class="titulo">Webisodios</div> -->
     <div class="titulo"><img src="' . content_url() . '/uploads/2018/04/logovitrina-400.png" alt="" class="logovitrina"></div>
 
-    <div class="enlace"><a href="/webisodios" class="button botonaudi">Ver episodios</a></div>
-    <div class="loadmore"><a href="#mascontenido">Ver más <span class="center aui-icon-arrow-down-small"></span></a>
+
+    <div class="titulowebisodios">
+        <div class="esloganserie">Una serie web más allá de la ficción</div>
+        <div class="separaeslogan"></div>
+        <div class="enlace"><a href="/webisodios" class="button botonaudi">Ver episodios</a></div>
+    </div>
+    
+    <div class="loadmore"><a href="#mascontenido">Más contenido<span class="center aui-icon-arrow-down-small"></span></a>
     </div>
 </div>
 <div id="mascontenido" class="enlaces">
-    <div class="enlace_libro"><a href="/libro" class="button botonaudi botonmedio">Libro</a></div>
-    <div class="enlace_preguntas"><a href="/faq" class="button botonaudi botonmedio">Preguntas frecuentes</a></div>
-    <div class="enlace_novedades"><a href="/novedades" class="button botonaudi botonmedio">Novedades Audi</a></div>
-    <div class="enlace_clientes"><a href="/foro" class="button botonaudi botonmedio">Clientes Audi Foro</a></div>
+    <div class="enlace_manualvitrina"><a href="' . content_url() . '/uploads/2018/04/manual-para-vitrina-test.pdf" target="_blank" class="button botonaudi botonmedio">Manual para vitrina</a></div>
+    <div class="enlace_manualtaller"><a href="' . content_url() . '/uploads/2018/04/manual-para-taller-test.pdf" target="_blank" class="button botonaudi botonmedio">Manual para taller</a></div>
+    <div class="enlace_inspiracionaudi"><a href="/novedades" class="button botonaudi botonmedio">Inspiración Audi</a></div>
+    <!-- <div class="enlace_clientes"><a href="/foro" class="button botonaudi botonmedio">Clientes Audi Foro</a></div> -->
 </div>';
 }
 

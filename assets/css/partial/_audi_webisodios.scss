@@ -1,5 +1,5 @@
 .audi_webisodios article, .webisodios article {
-  margin: 0;
+  margin: 100px;
   padding: 0;
 }
 
@@ -69,30 +69,30 @@ a.botonaudi {
   border: 3px $audiblanco solid;
   height: auto;
   padding: 0.2em 2em;
-  font-size: 1.6em;
+  font-size: 1.2em;
   background-color: rgba($audinegro, .4);
   @media (min-width: 800px) { //de 800 a 1200
     grid-template-columns: 1fr;
     padding: 0.2em 2em;
-    font-size: 2.0em;
+    font-size: 1.6em;
   }
   @media (min-width: 1200px) { //1200 y más
     padding: 0.2em 2em;
-    font-size: 2.6em;
-
+    font-size: 2.0em;
   }
 }
-
 a.botonmedio {
   font-size: 1.6em;
-  max-width: 250px;
+  max-width: 320px;
 }
 
 .audi_webisodios .loadmore {
   color: $audiblanco;
   font-family: 'AudiType-Normal', verdana, sans-serif !important;
   font-size: 2.6em;
-  padding-top: 0.4em;
+
+  align-self: end;
+
 }
 
 .audi_webisodios span.center {
@@ -108,20 +108,39 @@ a.botonmedio {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-columns: 1fr;
+  grid-template-areas: "manualvitrina"
+  "manualtaller"
+  "inspiracion";
+
 
   @media (min-width: 800px) { //de 800 a 1200
     grid-template-columns: 1fr;
     grid-template-columns: 1fr;
+    grid-template-areas: "manualvitrina"
+    "manualtaller"
+    "inspiracion";
   }
   @media (min-width: 1200px) { //1200 y más
     grid-template-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "manualvitrina manualtaller"
+    "inspiracion inspiracion";
   }
-
 }
 
-.enlace_libro, .enlace_preguntas, .enlace_novedades, .enlace_clientes {
+
+/*.enlace_libro, .enlace_preguntas, .enlace_novedades, .enlace_clientes {
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  min-height: 400px;
+  padding: 0;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+.enlace_manualvitrina, .enlace_manualtaller, .enlace_inspiracionaudi{
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
@@ -133,6 +152,25 @@ a.botonmedio {
   justify-content: center;
 }
 
+.enlace_manualvitrina{
+  grid-area: manualvitrina;
+  background-image: url("../../uploads/2018/04/logo_manual_vitrina.jpg");
+  background-position: center center;
+
+}
+.enlace_manualtaller{
+  grid-area: manualtaller;
+  background-image: url("../../uploads/2018/04/logo_manual_taller.jpg");
+  background-position: center center;
+}
+.enlace_inspiracionaudi{
+grid-area: inspiracion;
+  background-image: url("../../uploads/2018/04/fondo_inspiracion_audi.jpg");
+  background-position: top center;
+}
+
+
+/*
 .audi_webisodios .enlace_libro {
   background-image: url("../../uploads/2018/02/webisodios_libro_imagen.jpg");
   background-position: center center;
@@ -153,7 +191,7 @@ a.botonmedio {
   background-image: url("../../uploads/2018/02/webisodios_clientes_imagen.jpg");
   background-position: center center;
 }
-
+*/
 a.botonmedio:link, a.botonaudi:link {
   background-color: rgba($audinegro, $botonNormal)
 }
@@ -346,4 +384,24 @@ div.videoplay a:active{
 
 img.logovitrina{
   max-width: 200px;
+}
+
+div.titulowebisodios{
+  display: grid;
+  grid-template-columns: 1fr 19px 1fr;
+
+}
+div.esloganserie{
+  color: $audiblanco;
+  text-align: right;
+  margin-right: 2em;
+  align-self: center;
+}
+div.separaeslogan{
+  background: $audiblanco;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+div.enlace{
+margin-left: 2em;
 }
