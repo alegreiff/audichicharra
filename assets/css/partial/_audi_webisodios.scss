@@ -1,5 +1,5 @@
 .audi_webisodios article, .webisodios article {
-  margin: 100px;
+  margin: 0px;
   padding: 0;
 }
 
@@ -351,11 +351,11 @@ div.videoplay a:active{
 }
 
 .webisodios .videos div.internovideo:nth-child(1) {
-  background-image: url("../../uploads/2018/02/video1.jpg");
+  background-image: url("../../uploads/2018/04/video2.png");
 }
 
 .webisodios .videos div.internovideo:nth-child(2) {
-  background-image: url("../../uploads/2018/02/video2.jpg");
+  background-image: url("../../uploads/2018/04/video7.png");
 }
 
 .webisodios .videos div.internovideo:nth-child(3) {
@@ -393,9 +393,11 @@ div.titulowebisodios{
 }
 div.esloganserie{
   color: $audiblanco;
+  font-family: 'AudiType-Normal', verdana, sans-serif;
   text-align: right;
   margin-right: 2em;
   align-self: center;
+  font-size: 1.3em;
 }
 div.separaeslogan{
   background: $audiblanco;
@@ -404,4 +406,57 @@ div.separaeslogan{
 }
 div.enlace{
 margin-left: 2em;
+}
+
+
+.entradas-inspiracion{
+  backround: red;
+  display: none;
+}
+img.logo-seccion-videos{
+  padding-top: 20px;
+  max-width: 180px;
+}
+
+/*BLOG INSPIRACION*/
+#bloginspiracion{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  @media (min-width: 800px) { //de 800 a 1200
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (min-width: 1200px) { //1200 y más
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+#bloginspiracion article{
+  border: 1px $audired solid;
+  max-width: 400px;
+
+}
+#bloginspiracion article h4{
+  background-color: $audired;
+  display: block;
+  min-width: 100%;
+  padding: 0.5em;
+  margin: 0;
+}
+#bloginspiracion article >a {
+  margin: 0;
+  padding: 0;
+}
+#bloginspiracion article >a img {
+  min-width: 100%;
+  height: auto;
+}
+#bloginspiracion article .entry-content {
+
+  padding: 0.4em;
+}
+#bloginspiracion article h4 a:link, #bloginspiracion article h4 a:visited, #bloginspiracion article h4 a:hover, #bloginspiracion article h4 a:active{
+color: $audiblanco;
 }

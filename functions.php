@@ -108,7 +108,7 @@ add_theme_support('custom-header', array(
 add_theme_support('custom-background');
 
 // Add support for after entry widget.
-add_theme_support('genesis-after-entry-widget-area');
+//add_theme_support('genesis-after-entry-widget-area');
 
 // Add support for 3-column footer widgets.
 add_theme_support('genesis-footer-widgets', 3);
@@ -213,7 +213,7 @@ function custom_remove_titles()
         return;
     }
 
-    if (is_page(array('inicio', 'login', 'password-reset', 'audi_webisodios', 'webisodios', 'foro', 'libro', 'faq', 'novedades'))) {
+    if (is_page(array('inicio', 'login', 'password-reset', 'audi_webisodios', 'serievideo', 'inspiracion-audi', 'foro', 'libro', 'faq', 'novedades'))) {
         //remove_action( 'genesis_before_footer', 'genesis_footer_widget_areas' );
         remove_action('genesis_entry_header', 'genesis_entry_header_markup_open', 5);
         remove_action('genesis_entry_header', 'genesis_do_post_title');
@@ -231,7 +231,7 @@ add_action('genesis_after_content_sidebar_wrap', 'sk_footer_widget_areas');
 function sk_footer_widget_areas()
 {
 
-    if (is_page(array('login', 'password-reset'))) {
+    if (is_page(array('login', 'password-reset', 'inicio'))) {
         remove_action('genesis_footer', 'genesis_do_footer');
         remove_action('genesis_footer', 'genesis_footer_markup_open', 5);
         remove_action('genesis_footer', 'genesis_footer_markup_close', 15);
@@ -254,3 +254,17 @@ add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
 function custom_favicon( $favicon_url ) {
     return 'https://www.audi.com/etc/designs/gbp/favicon.ico';
 }
+//QUITAR POST META
+add_action ( 'genesis_meta' , 'remove_entry_meta_single_posts' );
+function remove_entry_meta_single_posts() {
+    if ( is_singular('post') )
+        remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+}
+
+remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+
+
+/*VIDEOS*/
+
+
+/*FIN VIDEOS*/

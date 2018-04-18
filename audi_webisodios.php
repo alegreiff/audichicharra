@@ -22,6 +22,7 @@ function audi_webisodios_loop()
 {
     global $barrasuperior;
     echo $barrasuperior;
+
     echo '<div class="contenedor">
     <!--<div class="logo"><img src="' . content_url() . '/uploads/2018/02/audi_logo_blanco.png" alt=""></div>-->
     <!-- <div class="titulo">Webisodios</div> -->
@@ -31,53 +32,56 @@ function audi_webisodios_loop()
     <div class="titulowebisodios">
         <div class="esloganserie">Una serie web más allá de la ficción</div>
         <div class="separaeslogan"></div>
-        <div class="enlace"><a href="/webisodios" class="button botonaudi">Ver episodios</a></div>
+        <div class="enlace"><a href="/serievideo" class="button botonaudi">Ver episodios</a></div>
     </div>
     
     <div class="loadmore"><a href="#mascontenido">Más contenido<span class="center aui-icon-arrow-down-small"></span></a>
     </div>
 </div>
 <div id="mascontenido" class="enlaces">
-    <div class="enlace_manualvitrina"><a href="' . content_url() . '/uploads/2018/04/manual-para-vitrina-test.pdf" target="_blank" class="button botonaudi botonmedio">Manual para vitrina</a></div>
-    <div class="enlace_manualtaller"><a href="' . content_url() . '/uploads/2018/04/manual-para-taller-test.pdf" target="_blank" class="button botonaudi botonmedio">Manual para taller</a></div>
-    <div class="enlace_inspiracionaudi"><a href="/novedades" class="button botonaudi botonmedio">Inspiración Audi</a></div>
+    <div class="enlace_manualvitrina"><a href="' . content_url() . '/uploads/2018/04/manual-audi-vitrina.pdf" target="_blank" class="button botonaudi botonmedio">Manual para vitrina</a></div>
+    <div class="enlace_manualtaller"><a href="' . content_url() . '/uploads/2018/04/manual-audi-taller.pdf" target="_blank" class="button botonaudi botonmedio">Manual para taller</a></div>
+    <div class="enlace_inspiracionaudi"><a href="/inspiracion-audi" class="button botonaudi botonmedio">Inspiración Audi</a></div>
     <!-- <div class="enlace_clientes"><a href="/foro" class="button botonaudi botonmedio">Clientes Audi Foro</a></div> -->
 </div>';
+    //echo do_shortcode( '[wise-chat]' );
 }
 
-function webisodios_loop()
+function serievideo_loop()
 {
     global $barrasuperior;
     echo $barrasuperior;
     ?>
 <div class="contenedor">
-    <div class="titulopagina">Webisodios </div>
+    <div class="titulopagina"><img src="<?php echo content_url();?>/uploads/2018/04/logo_vitrina_250_rojo.png" alt="" class="logo-seccion-videos"> </div>
     <div class="videos">
         <div class="internovideo">
-            <div class="videoplay"><a data-fancybox href="https://vimeo.com/161721395?color=bb0a30"><span class="aui-icon-system-play-small"></span></a></div>
+            <!--<div class="videoplay"><a data-fancybox href="https://vimeo.com/265012919?color=bb0a30"><span class="aui-icon-system-play-small"></span></a></div>-->
+            <div class="videoplay"><a href="/bienvenida-guiada"><span class="aui-icon-system-play-small"></span></a></div>
             <div class="infovideo">
-                <div class="nombrevideo">Principios de consulta</div>
-                <div class="referenciavideo">Cap 1. Tu cliente como un partner / socio</div>
+                <div class="nombrevideo">Bienvenida guiada</div>
+                <div class="referenciavideo">Cap 2</div>
             </div>
         </div>
         <div class="internovideo">
-            <div class="videoplay"><a data-fancybox href="https://vimeo.com/120808993?color=bb0a30"><span class="aui-icon-system-play-small"></span></a></div>
+            <div class="videoplay"><a href="/bienvenida-cordial"><span class="aui-icon-system-play-small"></span></a></div>
             <div class="infovideo">
-                <div class="nombrevideo">Proceso de compra del cliente</div>
-                <div class="referenciavideo">Cap 2. Fase de orientación</div>
+                <div class="nombrevideo">Bienvenida cordial</div>
+                <div class="referenciavideo">Cap 7</div>
             </div>
+
             <!--<iframe width="auto" height="auto" src="https://www.youtube.com/embed/oXfptmrUrR8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
             <!--<iframe src="https://player.vimeo.com/video/149767046?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1"  width="100%"  frameborder="0" allowfullscreen="allowfullscreen"></iframe>-->
             <!--<iframe allowFullScreen frameborder="0" height="564" mozallowfullscreen src="https://player.vimeo.com/video/257030290" webkitAllowFullScreen width="640"></iframe>-->
         </div>
-        <div class="internovideo">
+        <!--<div class="internovideo">
             <div class="videoplay"><a data-fancybox href="https://vimeo.com/256834258?color=bb0a30"><span class="aui-icon-system-play-small"></span></a></div>
             <div class="infovideo">
                 <div class="nombrevideo">Proceso de compra del cliente</div>
                 <div class="referenciavideo">Cap 3. Fase de información </div>
             </div>
         </div>
-        <!-- <a data-fancybox href="https://vimeo.com/191947042?color=f00">Vimeo video</a> -->
+
         <div class="internovideo">
             <div class="videoplay"><a data-fancybox href="https://vimeo.com/257033384?color=bb0a30"><span class="aui-icon-system-play-small"></span></a></div>
             <div class="infovideo">
@@ -98,7 +102,7 @@ function webisodios_loop()
                 <div class="nombrevideo">Proceso de venta</div>
                 <div class="referenciavideo">Cap 6. Análisis de necesidades</div>
             </div>
-        </div>
+        </div>-->
     </div>
 </div>
     <?php
