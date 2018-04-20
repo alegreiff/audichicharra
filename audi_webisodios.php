@@ -60,14 +60,14 @@ function serievideo_loop()
             <div class="videoplay"><a href="/bienvenida-guiada"><span class="aui-icon-system-play-small"></span></a></div>
             <div class="infovideo">
                 <div class="nombrevideo">Bienvenida guiada</div>
-                <div class="referenciavideo">Cap 2</div>
+                <div class="referenciavideo">. . .</div>
             </div>
         </div>
         <div class="internovideo">
             <div class="videoplay"><a href="/bienvenida-cordial"><span class="aui-icon-system-play-small"></span></a></div>
             <div class="infovideo">
                 <div class="nombrevideo">Bienvenida cordial</div>
-                <div class="referenciavideo">Cap 7</div>
+                <div class="referenciavideo">. . .</div>
             </div>
 
             <!--<iframe width="auto" height="auto" src="https://www.youtube.com/embed/oXfptmrUrR8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
