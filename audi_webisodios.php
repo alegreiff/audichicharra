@@ -39,11 +39,13 @@ function audi_webisodios_loop()
     </div>
 </div>
 <div id="mascontenido" class="enlaces">
-    <div class="enlace_manualvitrina"><a href="' . content_url() . '/uploads/2018/04/manual-audi-vitrina.pdf" target="_blank" class="button botonaudi botonmedio">Manual para vitrina</a></div>
-    <div class="enlace_manualtaller"><a href="' . content_url() . '/uploads/2018/04/manual-audi-taller.pdf" target="_blank" class="button botonaudi botonmedio">Manual para taller</a></div>
+    <div class="enlace_manualvitrina"><a href="' . content_url() . '/uploads/2018/05/manual-ventas-mayo-3.pdf" target="_blank" class="button botonaudi botonmedio">Manual para vitrina</a></div>
+    <div class="enlace_manualtaller"><a href="' . content_url() . '/uploads/2018/05/manual-servicio-mayo-3.pdf" target="_blank" class="button botonaudi botonmedio">Manual para taller</a></div>
     <div class="enlace_inspiracionaudi"><a href="/inspiracion-audi" class="button botonaudi botonmedio">Inspiración Audi</a></div>
     <!-- <div class="enlace_clientes"><a href="/foro" class="button botonaudi botonmedio">Clientes Audi Foro</a></div> -->
 </div>';
+
+
     //echo do_shortcode( '[wise-chat]' );
 }
 
