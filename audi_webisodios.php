@@ -76,6 +76,22 @@ function serievideo_loop()
             <!--<iframe src="https://player.vimeo.com/video/149767046?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1"  width="100%"  frameborder="0" allowfullscreen="allowfullscreen"></iframe>-->
             <!--<iframe allowFullScreen frameborder="0" height="564" mozallowfullscreen src="https://player.vimeo.com/video/257030290" webkitAllowFullScreen width="640"></iframe>-->
         </div>
+        <div class="internovideo">
+            <!--<div class="videoplay"><a data-fancybox href="https://vimeo.com/265012919?color=bb0a30"><span class="aui-icon-system-play-small"></span></a></div>-->
+            <div class="videoplay"><a href="/test-drive"><span class="aui-icon-system-play-small"></span></a></div>
+            <div class="infovideo">
+                <div class="nombrevideo">Test Drive</div>
+                <div class="referenciavideo">. . .</div>
+            </div>
+        </div>
+        <div class="internovideo">
+            <!--<div class="videoplay"><a data-fancybox href="https://vimeo.com/265012919?color=bb0a30"><span class="aui-icon-system-play-small"></span></a></div>-->
+            <div class="videoplay"><a href="/check-in-de-cliente"><span class="aui-icon-system-play-small"></span></a></div>
+            <div class="infovideo">
+                <div class="nombrevideo">Check in de cliente</div>
+                <div class="referenciavideo">. . .</div>
+            </div>
+        </div>
         <!--<div class="internovideo">
             <div class="videoplay"><a data-fancybox href="https://vimeo.com/256834258?color=bb0a30"><span class="aui-icon-system-play-small"></span></a></div>
             <div class="infovideo">
